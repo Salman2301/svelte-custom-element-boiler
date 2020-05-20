@@ -1,0 +1,23 @@
+{
+  "name": "svelte-boiler-webcomponent",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "sirv public",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "dist": "rollup -c -o dist/index.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "prettier": "^2.0.4",
+    "prettier-plugin-svelte": "^0.7.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "sirv-cli": "^0.4.4",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {}
+}

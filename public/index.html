@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Test Component</title>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+<body>
+	
+	<h1>Test</h1>
+	<hello-component></hello-component>
+
+	<script defer>
+		let helloComponent = document.querySelector("hello-component");
+		helloComponent.addEventListener("clickme", function(){
+			console.log("Someone clicked, do something");
+		});
+	</script>
+</body>
+</html>
