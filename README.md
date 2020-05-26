@@ -1,5 +1,5 @@
-# Svelte Boiler Plate with Example
-  This is a boiler plat for custom element build with svelte. I have some additional code to demonstrate how to use dispatch events cause that varies based on the normal compile to custom element. You can see the "Clean" Section below on how to remove those code.
+# Svelte BoilerPlate with Example
+  This is a boilerPlate for custom element build with svelte. I have some additional code to demonstrate how to use dispatch events cause that varies based on the normal compile to custom element. You can see the "Clean" Section below on how to remove those code.
 
 
 ## Get Started
